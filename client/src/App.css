@@ -1,0 +1,11 @@
+.btn-component button {
+  width: 6rem;
+  padding: 0.2rem;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  margin: 2rem;
+  background: rgb(15, 209, 92);
+  box-shadow: 4px 4px 5px #000;
+}
