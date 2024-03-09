@@ -8,6 +8,7 @@ import User, { findOne, findById } from "../../models/User";
 import normalize from "normalize-url";
 import { url } from 'gravatar';
 import { login, signup } from "../Controllers/register";
+import { addfriends, confirmfriends,deletefriends } from "../Controllers/friends";
 
 
 const router = Router();

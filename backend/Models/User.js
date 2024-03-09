@@ -5,6 +5,10 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  username:{
+    type:String,
+    required:true,
+  },
   email: {
     type: String,
     required: true,
@@ -16,6 +20,16 @@ const UserSchema = new mongoose.Schema({
   },
   avatar: {
     type: String,
+  },
+  friends :{
+    user: {
+        type: Schema.Types.ObjectId,
+    },
+  },
+  pendingrequest:{
+    user: {
+        type: Schema.Types.ObjectId,
+    },
   },
   date: {
     type: Date,
